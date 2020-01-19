@@ -1,7 +1,7 @@
 # Get the wallpaper from the internet
 # Save it to a temp directory
 # Set the wallpaper
-# Automate the calls to this script
+# Automation of wallpapers
 
 import os
 import ctypes
