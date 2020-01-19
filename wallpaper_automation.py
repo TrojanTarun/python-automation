@@ -32,7 +32,6 @@ def change_wallpaper():
     set desktop picture to POSIX file "%s"
     end tell
     END"""
-    #cmd=ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER , SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE)
     subprocess.Popen(cmd%wallpaper, shell=True)
     subprocess.call(["killall Dock"], shell=True)
 
