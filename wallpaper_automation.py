@@ -1,3 +1,4 @@
+_______________________Wallpaper-automation-for-mac-o__________________________
 # Get the wallpaper from the internet
 # Save it to a temp directory
 # Set the wallpaper
